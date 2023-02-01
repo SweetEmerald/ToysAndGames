@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dulce.arcadio\\source\\repos\\ToysAndGames_2.0\\ToysAndGames.API\\wwwroot\\products\\5078c197-e93d-4dbb-889f-a90ac164d435.jpg",
+      "PackagePath": "staticwebassets\\products\\5078c197-e93d-4dbb-889f-a90ac164d435.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dulce.arcadio\\source\\repos\\ToysAndGames_2.0\\ToysAndGames.API\\wwwroot\\products\\77ce2ba6-1fb5-4830-95d1-28da6de79364.jpg",
+      "PackagePath": "staticwebassets\\products\\77ce2ba6-1fb5-4830-95d1-28da6de79364.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dulce.arcadio\\source\\repos\\ToysAndGames_2.0\\ToysAndGames.API\\wwwroot\\products\\b4cfe41d-12b5-42c8-a973-c5d4c6d97a6e.jpg",
+      "PackagePath": "staticwebassets\\products\\b4cfe41d-12b5-42c8-a973-c5d4c6d97a6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dulce.arcadio\\source\\repos\\ToysAndGames_2.0\\ToysAndGames.API\\wwwroot\\products\\ca8d4b29-7377-4cf3-9cc6-39abb4966cfe.jpg",
+      "PackagePath": "staticwebassets\\products\\ca8d4b29-7377-4cf3-9cc6-39abb4966cfe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dulce.arcadio\\source\\repos\\ToysAndGames_2.0\\ToysAndGames.API\\wwwroot\\products\\f8950552-ef33-4a8a-9308-ed15e441e707.jpg",
+      "PackagePath": "staticwebassets\\products\\f8950552-ef33-4a8a-9308-ed15e441e707.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ToysAndGames.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ToysAndGames.API.props",
+      "PackagePath": "build\\ToysAndGames.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ToysAndGames.API.props",
+      "PackagePath": "buildMultiTargeting\\ToysAndGames.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ToysAndGames.API.props",
+      "PackagePath": "buildTransitive\\ToysAndGames.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

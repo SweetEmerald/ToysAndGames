@@ -1,0 +1,15 @@
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\bin\Debug\net6.0\ToysAndGames.DTO.deps.json
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\bin\Debug\net6.0\ToysAndGames.DTO.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\bin\Debug\net6.0\ToysAndGames.DTO.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\bin\Debug\net6.0\ToysAndGames.Data.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\bin\Debug\net6.0\ToysAndGames.Data.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.csproj.AssemblyReference.cache
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.AssemblyInfoInputs.cache
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.AssemblyInfo.cs
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.csproj.CoreCompileInputs.cache
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.csproj.CopyComplete
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\refint\ToysAndGames.DTO.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ToysAndGames.DTO.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.DTO\obj\Debug\net6.0\ref\ToysAndGames.DTO.dll
