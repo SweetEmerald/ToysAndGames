@@ -1,0 +1,71 @@
+<form (ngSubmit)="send()" [formGroup] = "productForm" id="productForm">
+    <fieldset>
+        <legend>{{title}}</legend>
+
+        <div *ngIf="isAlert" class="alert alert-dismissible alert-secondary">
+            <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Success!</strong> Your data has been entered successfully
+        </div>
+
+        <div class="form-group">
+            <input *ngIf="product!=null" type="hidden" formControlName="id">
+            
+            <label class="form-label mt-4">Name</label>
+            <input type="text" class="form-control" formControlName="name" id="name">
+            <div class="text-primary" 
+            *ngIf="productForm.get('name')?.hasError('required') 
+            && productForm.get('name')?.invalid 
+            && productForm.get('name')?.errors 
+            && (productForm.get('name')?.dirty 
+            || productForm.get('name')?.touched)">The name is required</div>
+
+            <label class="form-label mt-4">Description</label>
+            <input type="text" class="form-control" formControlName="description">
+            <div class="text-primary" 
+            *ngIf="productForm.get('description')?.hasError('required') 
+            && productForm.get('description')?.invalid 
+            && productForm.get('description')?.errors 
+            && (productForm.get('description')?.dirty 
+            || productForm.get('description')?.touched)">The description is required</div>
+
+            <label class="form-label mt-4">Image</label>
+            <input type="file" class="form-control" (change)="onFileSelect($event)" id="imageFile">
+
+            <label class="form-label mt-4">Age Restriction</label>
+            <select class="form-select" formControlName="ageRestriction">
+                <option *ngFor="let a of ages" [value]="a.ageId">{{a.numberage}}</option>
+            </select>
+            <div class="text-primary" 
+            *ngIf="productForm.get('ageRestriction')?.hasError('required') 
+            && productForm.get('ageRestriction')?.invalid 
+            && productForm.get('ageRestriction')?.errors 
+            && (productForm.get('ageRestriction')?.dirty 
+            || productForm.get('ageRestriction')?.touched)">The age restriction is required</div>
+            
+            <label class="form-label mt-4">Company</label>
+            <select class="form-select" formControlName="companyId">
+                <option value="0" [selected]="'0'">--Select a company--</option>
+                <option *ngFor="let c of companies" [value]="c.id ">{{c.name}}</option>
+            </select>
+            <div class="text-primary" 
+            *ngIf="productForm.get('companyId')?.hasError('required') 
+            && productForm.get('companyId')?.invalid 
+            && productForm.get('companyId')?.errors 
+            && (productForm.get('companyId')?.dirty 
+            || productForm.get('companyId')?.touched)">The company is required</div>
+            
+            <label class="form-label mt-4">Price</label>
+            <input type="text" class="form-control" formControlName="price">
+            <div class="text-primary" 
+            *ngIf="productForm.get('price')?.hasError('required') 
+            && productForm.get('price')?.invalid 
+            && productForm.get('price')?.errors 
+            && (productForm.get('price')?.dirty 
+            || productForm.get('price')?.touched)">The price is required</div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary mt-4" [disabled]="productForm.invalid || savedProduct" id="btnSave">Save</button>&nbsp;
+            <button type="button" class="btn btn-secondary mt-4" routerLink="/">Return</button>
+        </div>
+    </fieldset>
+</form>

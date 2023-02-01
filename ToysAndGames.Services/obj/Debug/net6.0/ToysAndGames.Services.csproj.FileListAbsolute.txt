@@ -1,0 +1,17 @@
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.Services.deps.json
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.Services.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.Services.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.Data.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.DTO.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.Data.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\bin\Debug\net6.0\ToysAndGames.DTO.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.csproj.AssemblyReference.cache
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.AssemblyInfoInputs.cache
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.AssemblyInfo.cs
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.csproj.CoreCompileInputs.cache
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.csproj.CopyComplete
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\refint\ToysAndGames.Services.dll
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ToysAndGames.Services.pdb
+C:\Users\dulce.arcadio\source\repos\ToysAndGames_2.0\ToysAndGames.Services\obj\Debug\net6.0\ref\ToysAndGames.Services.dll
