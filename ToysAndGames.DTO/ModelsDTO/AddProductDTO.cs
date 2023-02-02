@@ -20,7 +20,7 @@ namespace ToysAndGames.DTO.ModelsDTO
         [NotMapped]
         [SizeFileValidation(sizeMaxMB: 4)]
         [FileTypeValidation(fileTypeGroup: FileTypeGroup.Image)]
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
 
         //public string? Image { get; set; }
     }

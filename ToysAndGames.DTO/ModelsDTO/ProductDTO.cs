@@ -25,6 +25,6 @@ namespace ToysAndGames.DTO.ModelsDTO
         //[FileTypeValidation(fileTypeGroup: FileTypeGroup.Image)]
         //public IFormFile Image { get; set; }
 
-        public string Image { get; set; }
+        public string? Image { get; set; }
     }
 }

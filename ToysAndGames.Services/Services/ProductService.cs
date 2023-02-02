@@ -11,9 +11,9 @@ namespace ToysAndGames.Services.Services
     {
         private readonly ToysAndGamesDbContext _context;
         private readonly IMapper _mapper;
-        private readonly IFileStorage _fileStorage;
+        private readonly IFileStorage? _fileStorage;
 
-        public ProductService(ToysAndGamesDbContext context, IMapper mapper, IFileStorage fileStorage)
+        public ProductService(ToysAndGamesDbContext context, IMapper mapper, IFileStorage? fileStorage)
         {
             _context = context;
             _mapper = mapper;
@@ -55,7 +55,7 @@ namespace ToysAndGames.Services.Services
             {
                 Product product = _mapper.Map<Product>(addProductDTO);
 
-                if (addProductDTO.Image != null)
+                if (addProductDTO.Image != null && _fileStorage!=null)
                 {
                     using (var memoryStream = new MemoryStream())
                     {
@@ -93,7 +93,7 @@ namespace ToysAndGames.Services.Services
                 product.AgeRestriction = request.AgeRestriction;
                 product.CompanyId = request.CompanyId;
 
-                if (request.Image != null)
+                if (request.Image != null && _fileStorage!=null)
                 {
                     using (var memoryStream = new MemoryStream())
                     {

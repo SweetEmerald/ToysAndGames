@@ -42,6 +42,7 @@ try
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+    builder.Host.UseSerilog((ctx, lc) => lc.ReadFrom.Configuration(ctx.Configuration));
 
     var app = builder.Build();
 
@@ -62,6 +63,8 @@ try
     app.UseStaticFiles();
 
     app.UseCors(AllowLocalhostCORSPolicy);
+
+    app.UseSerilogRequestLogging();
 
     app.UseAuthorization();
 
