@@ -62,7 +62,7 @@ namespace ToysAndGames.Tests
 
         [Theory]
         [InlineData(1, "LEGO Duplo Visita Médica", "Set de 34 piezas. Figuras de una doctora, un papá y una niña, un osito de peluche, un medidor de altura, un lavabo, un sofá, un maletín que se abre y sillas.", 3, 3, 400)]
-        public async void ReturnUpdateTopic(int id, string name, string description, int companyId, int ageRestriction, decimal price)
+        public async void ReturnUpdateProduct(int id, string name, string description, int companyId, int ageRestriction, decimal price)
         {
             var sut = new ProductService(_dbFixture.Context, _mapperFixture.Mapper, null);
 
@@ -75,7 +75,7 @@ namespace ToysAndGames.Tests
 
         [Theory]
         [InlineData(1, true)]
-        public async void DeleteAValidTopic(int productId, bool succeeds)
+        public async void DeleteAValidProduct(int productId, bool succeeds)
         {
             var sut = new ProductService(_dbFixture.Context, _mapperFixture.Mapper, null);
 
