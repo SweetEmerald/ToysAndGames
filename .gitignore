@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vs/
+/ToysAndGames.API/bin/
+/ToysAndGames.API/obj/
+/ToysAndGames.DTO/obj/
+/ToysAndGames.Services/obj/
